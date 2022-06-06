@@ -8,7 +8,6 @@ public class ArrayTestEx5 {
 		Scanner sc = new Scanner(System.in);
 		
 		int B=42;
-		int cnt=0;
 		int arr[] = new int[10];
 		
 		for(int i=0; i<10; i++) {	// 총 10행까지 A 각각 입력받아 출력
@@ -18,6 +17,7 @@ public class ArrayTestEx5 {
 			arr[i] = A%B;	//배열에 각 나머지값을 담아둠
 		}
 		
+		int cnt=0;
 		for (int i=0; i<10; i++) {	//배열 값들끼리 비교하기
 			int temp=0;				
 			
